@@ -1,0 +1,649 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PuteObsidianOnTheTop",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pute_obsidian_on_the_top",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementTerre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_terre"
+    },
+    {
+      "name": "Resictance0OnaRangeOf5B",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resictance_0_ona_range_of_5_b",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Resistance1",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resistance_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementTerrePureGems",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_terre_pure_gems"
+    },
+    {
+      "name": "UniqueGems",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unique_gems"
+    },
+    {
+      "name": "OreETToUniqueGemsT",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_et_to_unique_gems_t"
+    },
+    {
+      "name": "ToCraftFDLT",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "to_craft_fdlt"
+    },
+    {
+      "name": "AxeForceDeLaTerreRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_force_de_la_terre_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AxeForceDeLaNature",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "axe_force_de_la_nature"
+    },
+    {
+      "name": "ArmuredeTerre",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armurede_terre",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ForceDeLaTerrePouvoir",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "force_de_la_terre_pouvoir",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElementArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_armor_helmet_recipe"
+    },
+    {
+      "name": "ElementArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_armor_body_recipe"
+    },
+    {
+      "name": "ElementArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_armor_leggings_recipe"
+    },
+    {
+      "name": "ElementArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "element_armor_boots_recipe"
+    },
+    {
+      "name": "RanforcedStone",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone"
+    },
+    {
+      "name": "RanforceStoneStairs",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforce_stone_stairs"
+    },
+    {
+      "name": "RanforceStoneSlabe",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforce_stone_slabe"
+    },
+    {
+      "name": "RanforcedStoneTools",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone_tools"
+    },
+    {
+      "name": "RanforcedStoneToolsCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone_tools_craft"
+    },
+    {
+      "name": "RanforcedStoneCB",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone_cb"
+    },
+    {
+      "name": "RanforcedStoneCST",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone_cst"
+    },
+    {
+      "name": "RanforcedStoneCSL",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranforced_stone_csl"
+    },
+    {
+      "name": "AireElement",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_element"
+    },
+    {
+      "name": "Skycity",
+      "type": "structure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skycity"
+    },
+    {
+      "name": "AirEffectOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_effect_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirEffect",
+      "type": "potion",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_effect"
+    },
+    {
+      "name": "AirEffectPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_effect_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GivAirEffectBotelle",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giv_air_effect_botelle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirFood",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_food"
+    },
+    {
+      "name": "AirPotionRecip",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_potion_recip"
+    },
+    {
+      "name": "AirGunRangedItemUsedCouldowon",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_gun_ranged_item_used_couldowon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirGun",
+      "type": "gun",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_gun"
+    },
+    {
+      "name": "AirGunRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_gun_recipe"
+    },
+    {
+      "name": "AirSwordEnchantRecul4",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_sword_enchant_recul_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirSword",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_sword"
+    },
+    {
+      "name": "AirEffectLevel2",
+      "type": "potion",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "air_effect_level_2"
+    },
+    {
+      "name": "AIrePotionLevel2Effect",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_ire_potion_level_2_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AireBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_block"
+    },
+    {
+      "name": "AireBlockRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_block_recipe"
+    },
+    {
+      "name": "AireArmor",
+      "type": "armor",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor_helmet_recipe"
+    },
+    {
+      "name": "AireArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor_body_recipe"
+    },
+    {
+      "name": "AireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor_leggings_recipe"
+    },
+    {
+      "name": "AireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor_boots_recipe"
+    },
+    {
+      "name": "AireArmorEffect",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aire_armor_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "PouvoirDeResitanceDeLaTerre",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.air_effect_level_2": "Lingering Air Potion Level 2",
+      "block.unitque_gems.ranforced_stone": "Ranforced Stone",
+      "item.unitque_gems.axe_force_de_la_nature": "Axe Force De La Terre",
+      "item.unitque_gems.armurede_terre_leggings": "Armure de Terre Leggings",
+      "item.minecraft.potion.effect.air_effect_level_2": "Air Potion Level 2",
+      "item.unitque_gems.element_terre_pure_gems": "Element Terre Pure Gems",
+      "item.unitque_gems.aire_armor_helmet": "Aire Helmet",
+      "item.unitque_gems.aire_armor_chestplate": "Aire Chestplate",
+      "item.minecraft.tipped_arrow.effect.air_effect_level_2": "Arrow of Air Potion Level 2",
+      "item.minecraft.splash_potion.effect.air_effect": "Splash Air Potion",
+      "item.minecraft.lingering_potion.effect.air_effect": "Lingering Air Potion",
+      "item.unitque_gems.air_gun": "Air Gun",
+      "item.minecraft.tipped_arrow.effect.air_effect": "Arrow of Air Potion",
+      "item.minecraft.potion.effect.air_effect": "Air Potion",
+      "item.unitque_gems.aire_armor_boots": "Aire Boots",
+      "item.unitque_gems.air_sword": "Air Sword",
+      "block.unitque_gems.element_terre": "Element Terre",
+      "item.minecraft.splash_potion.effect.air_effect_level_2": "Splash Air Potion Level 2",
+      "item.unitque_gems.armurede_terre_boots": "Armure de Terre Boots",
+      "block.unitque_gems.ranforce_stone_stairs": "Ranforce Stone Stairs",
+      "effect.air_effect_level_2": "Air Effect Level 2",
+      "block.unitque_gems.aire_block": "Aire Block",
+      "item.unitque_gems.air_food": "Air Botell",
+      "item.unitque_gems.aire_armor_leggings": "Aire Leggings",
+      "itemGroup.tabunique_gems": "Unique Gems",
+      "item.unitque_gems.armurede_terre_chestplate": "Armure de Terre Body",
+      "item.unitque_gems.armurede_terre_helmet": "Armure de Terre Helmet",
+      "item.unitque_gems.aire_element": "Air élement ",
+      "block.unitque_gems.ranforce_stone_slabe": "Ranforce Stone Slabe",
+      "effect.air_effect": "Air Effect",
+      "item.unitque_gems.ranforced_stone_tools": "Ranforced Stone Tools"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "unitque_gems",
+    "modName": "Unitque Gems",
+    "version": "1.0.0",
+    "author": "ethan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.unitquegems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

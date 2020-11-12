@@ -1,0 +1,32 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "runederemforcement",
+    "customModelName": "Normal",
+    "name": "Ranforced Stone Tools",
+    "specialInfo": [
+      "Permet de Renforcer la stone: compatible Avec les demie dalle bloc et éscalier."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 0.0,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementTerrePureGems"
+      }
+    ],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

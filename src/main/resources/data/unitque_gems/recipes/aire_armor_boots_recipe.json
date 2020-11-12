@@ -1,0 +1,26 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "unitque_gems:aire_element"
+    },
+    "2": {
+      "item": "unitque_gems:aire_element"
+    },
+    "3": {
+      "item": "unitque_gems:aire_block"
+    },
+    "5": {
+      "item": "unitque_gems:aire_block"
+    }
+  },
+  "result": {
+    "item": "unitque_gems:aire_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "unitque_gems:aire_block"
+    },
+    "1": {
+      "item": "unitque_gems:aire_block"
+    },
+    "2": {
+      "item": "unitque_gems:aire_block"
+    },
+    "3": {
+      "item": "unitque_gems:aire_element"
+    },
+    "5": {
+      "item": "unitque_gems:aire_element"
+    },
+    "6": {
+      "item": "unitque_gems:aire_element"
+    },
+    "8": {
+      "item": "unitque_gems:aire_element"
+    }
+  },
+  "result": {
+    "item": "unitque_gems:aire_armor_leggings",
+    "count": 1
+  }
+}

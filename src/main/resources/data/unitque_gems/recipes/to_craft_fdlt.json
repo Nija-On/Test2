@@ -1,0 +1,25 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    {
+      "item": "unitque_gems:element_terre_pure_gems"
+    }
+  ],
+  "result": {
+    "item": "unitque_gems:axe_force_de_la_nature",
+    "count": 1
+  }
+}

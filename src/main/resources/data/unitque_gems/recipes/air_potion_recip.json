@@ -1,0 +1,16 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "unitque_gems:aire_element"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "unitque_gems:air_food",
+    "count": 1
+  }
+}

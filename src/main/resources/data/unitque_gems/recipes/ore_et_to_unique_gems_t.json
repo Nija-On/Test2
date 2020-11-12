@@ -1,0 +1,12 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:blasting",
+  "experience": 10,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "unitque_gems:element_terre"
+  },
+  "result": {
+    "item": "unitque_gems:element_terre_pure_gems"
+  }
+}

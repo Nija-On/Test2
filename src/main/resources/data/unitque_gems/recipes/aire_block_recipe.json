@@ -1,0 +1,42 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "unitque_gems:aire_element"
+    },
+    "1": {
+      "item": "unitque_gems:aire_element"
+    },
+    "2": {
+      "item": "unitque_gems:aire_element"
+    },
+    "3": {
+      "item": "unitque_gems:aire_element"
+    },
+    "4": {
+      "item": "unitque_gems:aire_element"
+    },
+    "5": {
+      "item": "unitque_gems:aire_element"
+    },
+    "6": {
+      "item": "unitque_gems:aire_element"
+    },
+    "7": {
+      "item": "unitque_gems:aire_element"
+    },
+    "8": {
+      "item": "unitque_gems:air_food"
+    }
+  },
+  "result": {
+    "item": "unitque_gems:aire_block",
+    "count": 1
+  }
+}

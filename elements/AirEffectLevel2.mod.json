@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Air Potion Level 2",
+    "effectName": "Air Effect Level 2",
+    "icon": "poition_icon_air.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "AirEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "AirEffectPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "AirEffectOnPotionActiveTick"
+    }
+  }
+}

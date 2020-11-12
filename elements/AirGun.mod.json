@@ -1,0 +1,42 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "airorbs",
+    "customModelName": "Normal",
+    "name": "Air Gun",
+    "specialInfo": [
+      "Tire des Orbs d'air qui ne font pas de dégat mais qui repouse boucoup et ne demande pas de munition.",
+      "Recharge 0.5 Seconde"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 1000,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "AirGunRangedItemUsedCouldowon"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 4,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AireElement"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

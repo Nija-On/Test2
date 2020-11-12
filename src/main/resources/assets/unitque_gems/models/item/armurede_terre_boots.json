@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "unitque_gems:items/armure_de_la_terre_boots"
+  }
+}

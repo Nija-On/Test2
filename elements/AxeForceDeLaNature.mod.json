@@ -1,0 +1,38 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "armedelaterre",
+    "customModelName": "Normal",
+    "name": "Axe Force De La Terre",
+    "specialInfo": [
+      "Trait Fait de gros Dégat sur un moment Donner Pouvoir clique droit; Transfrome la roche et la roche du nether en Roche de Magma et étroudit aux enmi dans un petit rayon autour de cette Roche de Magma (n'agi pas sur les joureur). Temps de recharge 2 seconde."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 10.0,
+    "attackSpeed": 0.8,
+    "enchantability": 20,
+    "damageVsEntity": 16.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementTerrePureGems"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "AxeForceDeLaTerreRightClickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "ForceDeLaTerrePouvoir"
+    }
+  }
+}

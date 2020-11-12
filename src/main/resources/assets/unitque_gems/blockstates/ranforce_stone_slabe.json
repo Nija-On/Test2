@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "unitque_gems:block/ranforce_stone_slabe"
+    },
+    "type=top": {
+      "model": "unitque_gems:block/ranforce_stone_slabe_top"
+    },
+    "type=double": {
+      "model": "unitque_gems:block/ranforce_stone_slabe_full"
+    }
+  }
+}

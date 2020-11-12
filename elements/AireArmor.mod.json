@@ -1,0 +1,69 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "aire_head",
+    "enableBody": true,
+    "textureBody": "aire_body",
+    "enableLeggings": true,
+    "textureLeggings": "aire_leggings",
+    "enableBoots": true,
+    "textureBoots": "aire_boots",
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "armorTextureFile": "aire",
+    "helmetName": "Aire Helmet",
+    "bodyName": "Aire Chestplate",
+    "leggingsName": "Aire Leggings",
+    "bootsName": "Aire Boots",
+    "helmetSpecialInfo": [
+      "Armure complete Pouvoir: Te permes de volé",
+      "Améliore ta vision et les item du type Air"
+    ],
+    "bodySpecialInfo": [
+      "Armure complete Pouvoir: Te permes de volé",
+      "Améliore ta vision et les item du type Air"
+    ],
+    "leggingsSpecialInfo": [
+      "Armure complete Pouvoir: Te permes de volé",
+      "Améliore ta vision et les item du type Air"
+    ],
+    "bootsSpecialInfo": [
+      "Armure complete Pouvoir: Te permes de volé",
+      "Améliore ta vision et les item du type Air"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 2,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 12,
+    "toughness": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AireElement"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "unitque_gems:blocks/surper_dirt",
+    "top": "unitque_gems:blocks/surper_dirt",
+    "side": "unitque_gems:blocks/surper_dirt"
+  }
+}

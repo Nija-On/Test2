@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ap",
+    "customModelName": "Normal",
+    "name": "Air Botell",
+    "specialInfo": [
+      "Why that you can fly 1 minute"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 10.0,
+    "eatingSpeed": 10,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "GivAirEffectBotelle"
+    }
+  }
+}

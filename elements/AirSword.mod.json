@@ -1,0 +1,35 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "airsowrd",
+    "customModelName": "air_sowerd:default",
+    "name": "Air Sword",
+    "specialInfo": [
+      "L'adversair est envoyé a 12 bloque de distance."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AireElement"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "AirSwordEnchantRecul4"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "unitque_gems:custom/air_sowerd",
+  "textures": {
+    "0": "unitque_gems:blocks/epee_bois",
+    "1": "unitque_gems:blocks/epee_bois_manche",
+    "2": "unitque_gems:blocks/white",
+    "missing": "unitque_gems:blocks/",
+    "particle": "unitque_gems:items/airsowrd"
+  }
+}

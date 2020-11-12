@@ -1,0 +1,39 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "2": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "3": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "4": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "5": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "6": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "7": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    },
+    "8": {
+      "item": "unitque_gems:element_terre_pure_gems"
+    }
+  },
+  "result": {
+    "item": "unitque_gems:armurede_terre_chestplate",
+    "count": 1
+  }
+}

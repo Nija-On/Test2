@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 10.0,
+    "cookingTime": 1200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:ElementTerre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:ElementTerrePureGems"
+    },
+    "name": "ore_et_to_unique_gems_t",
+    "namespace": "mod"
+  }
+}

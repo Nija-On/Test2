@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unitque_gems:blocks/surper_dirt",
+    "particle": "unitque_gems:blocks/surper_dirt"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "armure_de_la_terre_head",
+    "enableBody": true,
+    "textureBody": "armure_de_la_terre_body",
+    "enableLeggings": true,
+    "textureLeggings": "armure_de_la_terre_leggings",
+    "enableBoots": true,
+    "textureBoots": "armure_de_la_terre_boots",
+    "creativeTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "armorTextureFile": "armure_de_la_terre",
+    "helmetName": "Armure de Terre Helmet",
+    "bodyName": "Armure de Terre Body",
+    "leggingsName": "Armure de Terre Leggings",
+    "bootsName": "Armure de Terre Boots",
+    "helmetSpecialInfo": [
+      "Pouvoir: Done un effect de resictance en fontion du nombre de pièce d'armure équipé."
+    ],
+    "bodySpecialInfo": [
+      "Pouvoir: Done un effect de resictance en fontion du nombre de pièce d'armure équipé."
+    ],
+    "leggingsSpecialInfo": [
+      "Pouvoir: Done un effect de resictance en fontion du nombre de pièce d'armure équipé."
+    ],
+    "bootsSpecialInfo": [
+      "Pouvoir: Done un effect de resictance en fontion du nombre de pièce d'armure équipé."
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 75,
+    "damageValueHelmet": 6,
+    "damageValueBody": 16,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
+    "enchantability": 0,
+    "toughness": 5.0,
+    "equipSound": {
+      "value": "block.anvil.place"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementTerrePureGems"
+      }
+    ]
+  }
+}
