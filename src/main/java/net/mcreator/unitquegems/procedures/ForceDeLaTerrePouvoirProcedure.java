@@ -27,25 +27,26 @@ public class ForceDeLaTerrePouvoirProcedure extends UnitqueGemsModElements.ModEl
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ForceDeLaTerrePouvoir!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure ForceDeLaTerrePouvoir!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		double ForceDeLaTerrePouvoir = 0;
 		ForceDeLaTerrePouvoir = (double) 0;
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(0) : ItemStack.EMPTY)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(ArmuredeTerreItem.boots, (int) (1)).getItem())) {
 			ForceDeLaTerrePouvoir = (double) ((ForceDeLaTerrePouvoir) + 1);
 		}
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(1) : ItemStack.EMPTY)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(ArmuredeTerreItem.legs, (int) (1)).getItem())) {
 			ForceDeLaTerrePouvoir = (double) ((ForceDeLaTerrePouvoir) + 1);
 		}
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(2) : ItemStack.EMPTY)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(ArmuredeTerreItem.body, (int) (1)).getItem())) {
 			ForceDeLaTerrePouvoir = (double) ((ForceDeLaTerrePouvoir) + 1);
 		}
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(ArmuredeTerreItem.helmet, (int) (1)).getItem())) {
 			ForceDeLaTerrePouvoir = (double) ((ForceDeLaTerrePouvoir) + 1);
 		}

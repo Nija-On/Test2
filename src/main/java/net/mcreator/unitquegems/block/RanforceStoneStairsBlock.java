@@ -41,8 +41,9 @@ public class RanforceStoneStairsBlock extends UnitqueGemsModElements.ModElement 
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-					.hardnessAndResistance(15f, 12f).lightValue(0).harvestLevel(3).harvestTool(ToolType.PICKAXE));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(15f, 12f)).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 12f).lightValue(0).harvestLevel(3)
+							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("ranforce_stone_stairs");
 		}
 

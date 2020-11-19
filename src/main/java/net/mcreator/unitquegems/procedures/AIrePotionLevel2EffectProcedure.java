@@ -27,14 +27,15 @@ public class AIrePotionLevel2EffectProcedure extends UnitqueGemsModElements.ModE
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AIrePotionLevel2Effect!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure AIrePotionLevel2Effect!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((new Object() {
-			boolean check(LivingEntity _entity) {
+			boolean check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
-					Collection<EffectInstance> effects = _entity.getActivePotionEffects();
+					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
 					for (EffectInstance effect : effects) {
 						if (effect.getPotion() == AirEffectLevel2Potion.potion)
 							return true;
@@ -42,7 +43,7 @@ public class AIrePotionLevel2EffectProcedure extends UnitqueGemsModElements.ModE
 				}
 				return false;
 			}
-		}.check((LivingEntity) entity))) {
+		}.check(entity))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(AirEffectPotion.potion, (int) 2, (int) 0));
 			if (entity instanceof LivingEntity)

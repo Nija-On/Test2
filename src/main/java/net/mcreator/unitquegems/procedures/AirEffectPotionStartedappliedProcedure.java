@@ -19,15 +19,16 @@ public class AirEffectPotionStartedappliedProcedure extends UnitqueGemsModElemen
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AirEffectPotionStartedapplied!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure AirEffectPotionStartedapplied!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity) {
 			((PlayerEntity) entity).abilities.isFlying = (new Object() {
-				boolean check(LivingEntity _entity) {
+				boolean check(Entity _entity) {
 					if (_entity instanceof LivingEntity) {
-						Collection<EffectInstance> effects = _entity.getActivePotionEffects();
+						Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
 						for (EffectInstance effect : effects) {
 							if (effect.getPotion() == AirEffectPotion.potion)
 								return true;
@@ -35,7 +36,7 @@ public class AirEffectPotionStartedappliedProcedure extends UnitqueGemsModElemen
 					}
 					return false;
 				}
-			}.check((LivingEntity) entity));
+			}.check(entity));
 			((PlayerEntity) entity).sendPlayerAbilities();
 		}
 	}

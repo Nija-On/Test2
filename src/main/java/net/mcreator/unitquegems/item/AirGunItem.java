@@ -75,11 +75,6 @@ public class AirGunItem extends UnitqueGemsModElements.ModElement {
 		}
 
 		@Override
-		public UseAction getUseAction(ItemStack stack) {
-			return UseAction.BOW;
-		}
-
-		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			entity.setActiveHand(hand);
 			return new ActionResult(ActionResultType.SUCCESS, entity.getHeldItem(hand));
@@ -91,6 +86,11 @@ public class AirGunItem extends UnitqueGemsModElements.ModElement {
 			list.add(new StringTextComponent(
 					"Tire des Orbs d'air qui ne font pas de d\u00E9gat mais qui repouse boucoup et ne demande pas de munition."));
 			list.add(new StringTextComponent("Recharge 0.5 Seconde"));
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.BOW;
 		}
 
 		@Override

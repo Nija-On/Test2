@@ -21,11 +21,13 @@ public class AirSwordEnchantRecul4Procedure extends UnitqueGemsModElements.ModEl
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AirSwordEnchantRecul4!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure AirSwordEnchantRecul4!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure AirSwordEnchantRecul4!");
+			if (!dependencies.containsKey("itemstack"))
+				System.err.println("Failed to load dependency itemstack for procedure AirSwordEnchantRecul4!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -34,9 +36,9 @@ public class AirSwordEnchantRecul4Procedure extends UnitqueGemsModElements.ModEl
 			((itemstack)).addEnchantment(Enchantments.PROTECTION, (int) 4);
 		}
 		if ((new Object() {
-			boolean check(LivingEntity _entity) {
+			boolean check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
-					Collection<EffectInstance> effects = _entity.getActivePotionEffects();
+					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
 					for (EffectInstance effect : effects) {
 						if (effect.getPotion() == AirEffectLevel2Potion.potion)
 							return true;
@@ -44,7 +46,7 @@ public class AirSwordEnchantRecul4Procedure extends UnitqueGemsModElements.ModEl
 				}
 				return false;
 			}
-		}.check((LivingEntity) entity))) {
+		}.check(entity))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HASTE, (int) 2, (int) 4));
 		}
