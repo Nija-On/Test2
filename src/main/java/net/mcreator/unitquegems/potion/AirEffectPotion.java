@@ -8,7 +8,6 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
@@ -26,8 +25,6 @@ import java.util.HashMap;
 public class AirEffectPotion extends UnitqueGemsModElements.ModElement {
 	@ObjectHolder("unitque_gems:air_effect")
 	public static final Effect potion = null;
-	@ObjectHolder("unitque_gems:air_effect")
-	public static final Potion potionType = null;
 	public AirEffectPotion(UnitqueGemsModElements instance) {
 		super(instance, 27);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -37,18 +34,6 @@ public class AirEffectPotion extends UnitqueGemsModElements.ModElement {
 	public void registerEffect(RegistryEvent.Register<Effect> event) {
 		event.getRegistry().register(new EffectCustom());
 	}
-
-	@SubscribeEvent
-	public void registerPotion(RegistryEvent.Register<Potion> event) {
-		event.getRegistry().register(new PotionCustom());
-	}
-	public static class PotionCustom extends Potion {
-		public PotionCustom() {
-			super(new EffectInstance(potion, 3600));
-			setRegistryName("air_effect");
-		}
-	}
-
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
@@ -84,7 +69,7 @@ public class AirEffectPotion extends UnitqueGemsModElements.ModElement {
 
 		@Override
 		public boolean shouldRenderHUD(EffectInstance effect) {
-			return true;
+			return false;
 		}
 
 		@Override

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "unitque_gems:blocks/firedimsionfire",
+    "particle": "unitque_gems:blocks/firedimsionfire"
+  }
+}

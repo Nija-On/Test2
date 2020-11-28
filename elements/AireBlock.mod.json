@@ -14,6 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
+    "particleTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -25,8 +26,8 @@
     "Mz": 1.0,
     "name": "Aire Block",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 2.5,
+    "hardness": 1.0,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -42,9 +43,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 60,
     "material": {
-      "value": "AIR"
+      "value": "CLOTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -58,9 +59,9 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7999999999999999,
+    "slipperiness": 0.4,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "SNOW"
     },
@@ -91,6 +92,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onStartToDestroy": {
+      "name": "AutoDestruction"
+    },
+    "onEntityCollides": {
+      "name": "Fly"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

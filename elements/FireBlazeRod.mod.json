@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 100.0,
+    "cookingTime": 4800,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:BlazeRodBloc"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BlazeRodCommpresse"
+    },
+    "name": "fire_blaze_rod",
+    "namespace": "mod"
+  }
+}

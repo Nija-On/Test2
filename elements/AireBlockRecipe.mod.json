@@ -7,10 +7,10 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AireElement"
+        "value": ""
       },
       {
         "value": "CUSTOM:AireElement"
@@ -19,7 +19,7 @@
         "value": "CUSTOM:AireElement"
       },
       {
-        "value": "CUSTOM:AireElement"
+        "value": ""
       },
       {
         "value": "CUSTOM:AireElement"
@@ -28,13 +28,13 @@
         "value": "CUSTOM:AireElement"
       },
       {
-        "value": "CUSTOM:AireElement"
+        "value": ""
       },
       {
-        "value": "CUSTOM:AireElement"
+        "value": ""
       },
       {
-        "value": "CUSTOM:AirFood"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

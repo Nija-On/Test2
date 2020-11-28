@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unitque_gems:blocks/bakeofdirtf",
+    "up": "unitque_gems:blocks/topofdirt",
+    "north": "unitque_gems:blocks/sidedirt",
+    "east": "unitque_gems:blocks/sidedirt",
+    "south": "unitque_gems:blocks/sidedirt",
+    "west": "unitque_gems:blocks/sidedirt",
+    "particle": "unitque_gems:blocks/bakeofdirtf"
+  }
+}

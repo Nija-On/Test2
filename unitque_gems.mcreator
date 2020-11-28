@@ -583,6 +583,185 @@
           }
         ]
       }
+    },
+    {
+      "name": "AutoDestruction",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_destruction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlazeRodBloc",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blaze_rod_bloc"
+    },
+    {
+      "name": "BlazeRodCommpresse",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blaze_rod_commpresse"
+    },
+    {
+      "name": "FireBlazeRod",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_blaze_rod"
+    },
+    {
+      "name": "CraftBlocBlazROD",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_bloc_blaz_rod"
+    },
+    {
+      "name": "FireDimansion",
+      "type": "dimension",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_dimansion"
+    },
+    {
+      "name": "Hoeoffire",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoeoffire"
+    },
+    {
+      "name": "DirtOfFire",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_of_fire"
+    },
+    {
+      "name": "PuteOnFireFor1Seconde",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pute_on_fire_for_1_seconde",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneOfFire",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_of_fire"
+    },
+    {
+      "name": "FireBiome",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_biome"
+    },
+    {
+      "name": "BleuFiere",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleu_fiere",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireLiquide",
+      "type": "fluid",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_liquide"
+    },
+    {
+      "name": "DarkFire",
+      "type": "plant",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_fire"
     }
   ],
   "variable_elements": [
@@ -605,6 +784,8 @@
       "item.unitque_gems.aire_armor_helmet": "Aire Helmet",
       "item.unitque_gems.aire_armor_chestplate": "Aire Chestplate",
       "item.minecraft.tipped_arrow.effect.air_effect_level_2": "Arrow of Air Potion Level 2",
+      "block.unitque_gems.dark_fire": "Dark Fire",
+      "block.unitque_gems.dirt_of_fire": "Dirt Of Fire",
       "item.minecraft.splash_potion.effect.air_effect": "Splash Air Potion",
       "item.minecraft.lingering_potion.effect.air_effect": "Lingering Air Potion",
       "item.unitque_gems.air_gun": "Air Gun",
@@ -612,21 +793,70 @@
       "item.minecraft.potion.effect.air_effect": "Air Potion",
       "item.unitque_gems.aire_armor_boots": "Aire Boots",
       "item.unitque_gems.air_sword": "Air Sword",
+      "biome.unitque_gems.fire_biome": "Fire Biome",
       "block.unitque_gems.element_terre": "Element Terre",
       "item.minecraft.splash_potion.effect.air_effect_level_2": "Splash Air Potion Level 2",
+      "block.unitque_gems.stone_of_fire": "Stone Of Fire",
       "item.unitque_gems.armurede_terre_boots": "Armure de Terre Boots",
+      "block.unitque_gems.blaze_rod_bloc": "Blaze Rod Bloc",
       "block.unitque_gems.ranforce_stone_stairs": "Ranforce Stone Stairs",
       "effect.air_effect_level_2": "Air Effect Level 2",
       "block.unitque_gems.aire_block": "Aire Block",
       "item.unitque_gems.air_food": "Air Botell",
+      "item.unitque_gems.fire_liquide_bucket": "FireLiquide Bucket",
       "item.unitque_gems.aire_armor_leggings": "Aire Leggings",
       "itemGroup.tabunique_gems": "Unique Gems",
       "item.unitque_gems.armurede_terre_chestplate": "Armure de Terre Body",
       "item.unitque_gems.armurede_terre_helmet": "Armure de Terre Helmet",
+      "fluid.fire_liquide": "FireLiquide",
       "item.unitque_gems.aire_element": "Air élement ",
       "block.unitque_gems.ranforce_stone_slabe": "Ranforce Stone Slabe",
+      "block.unitque_gems.blaze_rod_commpresse": "Blaze Rod Emflamé",
       "effect.air_effect": "Air Effect",
-      "item.unitque_gems.ranforced_stone_tools": "Ranforced Stone Tools"
+      "item.unitque_gems.ranforced_stone_tools": "Ranforced Stone Tools",
+      "item.unitque_gems.fire_dimansion": "Fire Dimansion Portal Igniter"
+    },
+    "fr_fr": {
+      "item.minecraft.lingering_potion.effect.air_effect_level_2": "Lingering Air Potion Level 2",
+      "block.unitque_gems.ranforced_stone": "Ranforced Stone",
+      "item.unitque_gems.axe_force_de_la_nature": "Axe Force De La Terre",
+      "item.unitque_gems.armurede_terre_leggings": "Armure de Terre Leggings",
+      "item.minecraft.potion.effect.air_effect_level_2": "Air Potion Level 2",
+      "item.unitque_gems.element_terre_pure_gems": "Element Terre Pure Gems",
+      "item.unitque_gems.aire_armor_helmet": "Aire Helmet",
+      "item.unitque_gems.aire_armor_chestplate": "Aire Chestplate",
+      "item.minecraft.tipped_arrow.effect.air_effect_level_2": "Arrow of Air Potion Level 2",
+      "block.unitque_gems.dark_fire": "Dark Fire",
+      "block.unitque_gems.dirt_of_fire": "Dirt Of Fire",
+      "item.minecraft.splash_potion.effect.air_effect": "Splash Air Potion",
+      "item.minecraft.lingering_potion.effect.air_effect": "Lingering Air Potion",
+      "item.unitque_gems.air_gun": "Air Gun",
+      "item.minecraft.tipped_arrow.effect.air_effect": "Arrow of Air Potion",
+      "item.minecraft.potion.effect.air_effect": "Air Potion",
+      "item.unitque_gems.aire_armor_boots": "Aire Boots",
+      "item.unitque_gems.air_sword": "Air Sword",
+      "biome.unitque_gems.fire_biome": "Fire Biome",
+      "block.unitque_gems.element_terre": "Element Terre",
+      "item.minecraft.splash_potion.effect.air_effect_level_2": "Splash Air Potion Level 2",
+      "block.unitque_gems.stone_of_fire": "Stone Of Fire",
+      "item.unitque_gems.armurede_terre_boots": "Armure de Terre Boots",
+      "block.unitque_gems.blaze_rod_bloc": "Blaze Rod Bloc",
+      "block.unitque_gems.ranforce_stone_stairs": "Ranforce Stone Stairs",
+      "effect.air_effect_level_2": "Air Effect Level 2",
+      "block.unitque_gems.aire_block": "Aire Block",
+      "item.unitque_gems.air_food": "Air Botell",
+      "item.unitque_gems.fire_liquide_bucket": "FireLiquide Bucket",
+      "item.unitque_gems.aire_armor_leggings": "Aire Leggings",
+      "itemGroup.tabunique_gems": "Unique Gems",
+      "item.unitque_gems.armurede_terre_chestplate": "Armure de Terre Body",
+      "item.unitque_gems.armurede_terre_helmet": "Armure de Terre Helmet",
+      "fluid.fire_liquide": "FireLiquide",
+      "item.unitque_gems.aire_element": "Air élement ",
+      "block.unitque_gems.ranforce_stone_slabe": "Ranforce Stone Slabe",
+      "block.unitque_gems.blaze_rod_commpresse": "Blaze Rod Commpresse",
+      "effect.air_effect": "Air Effect",
+      "item.unitque_gems.ranforced_stone_tools": "Ranforced Stone Tools",
+      "item.unitque_gems.fire_dimansion": "Fire Dimansion Portal Igniter"
     }
   },
   "workspaceSettings": {
@@ -645,5 +875,5 @@
     "modElementsPackage": "net.mcreator.unitquegems",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547418
+  "mcreatorVersion": 202000547520
 }

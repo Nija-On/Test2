@@ -1,0 +1,47 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:BlazeRodCommpresse"
+    },
+    "portalParticles": {
+      "value": "LAND_LAVA"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.fire.ambient"
+    },
+    "igniterName": "Fire Dimansion Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:UniqueGems"
+    },
+    "texture": "flamehoe",
+    "portalTexture": "portaille",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:FireBiome"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:StoneOfFire"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:FireLiquide"
+    },
+    "airColor": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

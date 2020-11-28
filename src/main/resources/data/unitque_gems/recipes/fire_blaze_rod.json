@@ -1,0 +1,12 @@
+{
+  "group": "unitque_gems",
+  "type": "minecraft:blasting",
+  "experience": 100,
+  "cookingtime": 4800,
+  "ingredient": {
+    "item": "unitque_gems:blaze_rod_bloc"
+  },
+  "result": {
+    "item": "unitque_gems:blaze_rod_commpresse"
+  }
+}

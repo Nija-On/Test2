@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "unitque_gems:block/fire_dimansion_portal_ew"
+    },
+    "axis=x": {
+      "model": "unitque_gems:block/fire_dimansion_portal_ns"
+    }
+  }
+}

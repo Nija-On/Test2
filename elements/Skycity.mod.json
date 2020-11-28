@@ -5,7 +5,7 @@
     "structure": "skycity2",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 10,
+    "spawnProbability": 1000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Air",
